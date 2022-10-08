@@ -1,0 +1,43 @@
+git commands
+
+1. git status: this is used for checking status for git directory
+2. git init: It is used for inisialized git repository
+3. git add --a: It is used for add all files to moving area
+4. git commit -m "": It is used to commit with some message 
+5. git log: to show all commit history 
+6. rm -rf .git: it will delete your all .git file.  
+/dir/ in gitingore: ignore only outer folder 
+dir/ ignor all dir files.
+
+git commands:
+
+git status
+git add . 
+git commit -m ""
+
+git init 
+git add --a 
+git rm file_name
+git mv old_name new_name
+
+git diff
+git diff --staged
+
+git log
+git log -p 
+git log -p -2
+git log --pretty=short
+git log --pretty=oneline
+git log --stat
+
+git clone www.github.com folder_name
+
+rm -rf file_file_name
+touch file_name
+git commit -a -m "Direct commit"
+git cached file_name
+git --since=2.days
+git --since=3.weeks
+git --since=4.months
+
+git commit --amend
