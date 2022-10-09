@@ -1,2 +1,39 @@
-i made some changes in this file.
-This is second change which i have made.
+*basic command*
+
+git status
+git init
+git add -a
+git commit -m "first commit"
+git commit -a -m "direct commit"
+git commit --amend
+
+git log 
+git log -p 
+git log -p -2
+git log --stat
+git log --pretty=online 
+git log --pretty=short
+
+git --since=2.days
+git --since=2.weeks
+git --since=3.months
+
+git checkout -f
+git checkout -file_name
+
+git rm filename
+git mv old_file new_file
+git --cached file_name
+
+rm -rf file-name
+
+git diff
+git diff --staged
+
+git remote
+git remote add name <link of github repo>
+git remote -v
+
+
+
+
